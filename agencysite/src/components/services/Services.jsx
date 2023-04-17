@@ -1,5 +1,8 @@
 import React from 'react'
-
+import automationRobot from '../../assets/robotautomation.png'
+import designIcon from '../../assets/designIcon.png'
+import developmentIcon from '../../assets/developmentIcon.png'
+import seoIcon from '../../assets/seoIcon.png'
 const Services = () => {
   return (
     <div className='services 
@@ -22,7 +25,11 @@ const Services = () => {
         sm:text-[50px] 
         xs:text-[40px] 
         text-[30px] 
-        font-Poppins'>Services</div>
+        font-Poppins
+        text-center
+        '>
+          Services
+          </div>
       </div>
       
       <div className='services_servicesList 
@@ -39,10 +46,10 @@ const Services = () => {
         sm:w-[250px] 
         w-full"
         '>
-        <img className='services_servicesList1-img'/>
+        <img className='services_servicesList1-img' src={designIcon}/>
         <div className='services_servicesList1-info'>
             <div className='services_servicesList1-title'>
-            <p className='text-white text-3xl'>Web Design</p>
+            <p className='text-white text-3xl bg-black rounded-2xl'>Design</p>
             </div>
             <div className='services_servicesList1-desc'>
 
@@ -58,10 +65,10 @@ const Services = () => {
         
         
         '>
-        <img className='services_servicesList2-img'/>
+        <img className='services_servicesList2-img' src={developmentIcon}/>
         <div className='services_servicesList2-info'>
             <div className='services_servicesList2-title'>
-            <p className='text-white text-3xl'>Web Design</p>
+            <p className='text-white text-3xl bg-black rounded-2xl'>Development</p>
             </div>
             <div className='services_servicesList2-desc'>
                 
@@ -77,10 +84,10 @@ const Services = () => {
        w-full"
         
         '>
-        <img className='services_servicesList3-img'/>
+        <img className='services_servicesList3-img' src={seoIcon} alt=""/>
         <div className='services_servicesList3-info'>
             <div className='services_servicesList3-title'>
-            <p className='text-white text-3xl'>Web Design</p>
+            <p className='text-white text-3xl bg-black rounded-2xl'>SEO</p>
             </div>
             <div className='services_servicesList3-desc'>
                 
@@ -96,12 +103,12 @@ const Services = () => {
        w-full"
         
         '>
-        <img className='services_servicesList3-img'/>
-        <div className='services_servicesList3-info'>
-            <div className='services_servicesList3-title'>
-            <p className='text-white text-3xl'>Web Design</p>
+        <img className='services_servicesList4-img' src={automationRobot} alt="automation icon"/>
+        <div className='services_servicesList4-info'>
+            <div className='services_servicesList4-title'>
+            <p className='text-white text-3xl bg-black rounded-2xl'>Automation</p>
             </div>
-            <div className='services_servicesList3-desc'>
+            <div className='services_servicesList4-desc'>
                 
             </div>
         </div>
