@@ -1,23 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import {BrowserRouter } from "react-router-dom";
+import {Banner, Hero, Navbar, Services} from './components';
 import './App.css'
-import Banner from './constants/banner/Banner'
-import Hero from './components/hero/Hero'
-import Navbar from './constants/navbar/Navbar'
-import Services from './components/services/Services'
+
 
 const App = () => {
 
 
 
  return (
-  <div>
+    <BrowserRouter>
+  
+    <div className='relative z-0 bg-black	'>
     <Banner />
     <Navbar />
     <Hero />
     <Services />
-  </div>
+    </div>
+    </BrowserRouter>
  )
 }
 

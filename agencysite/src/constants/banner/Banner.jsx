@@ -9,7 +9,7 @@ const Banner = () => {
 
     return (
     <div>
-      <p className='banner font-mono bg-slate-950 text-slate-100 text-center'>{bannerMessage}</p>
+      <p className='banner font-mono bg-cyan-400 text-center'>{bannerMessage}</p>
     </div>
   )
 }

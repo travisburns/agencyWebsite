@@ -3,9 +3,20 @@ import logo from '../../assets/eugenewebdevlogo.png'
 const Navbar = () => {
   
     return (
+
     <div className='bg-black h-11'>
-    <ul className='flex text-justify text-gray-50 text-xl space-x-4'>
-        <li className='pr-36'> <img src= {logo}  alt=""/></li>
+    <ul className='flex 
+        justify-center 
+        text-white 
+        font-Poppins
+        font-black 
+        md:text-[20px] 
+        sm:text-[10px] 
+        xs:text-[5px]  
+        font-Poppins
+        '>
+
+        <li className=''> <img src= {logo}  alt=""/></li>
         <li>Services</li>
         <li>About</li>
         <li>Previous Work</li>
