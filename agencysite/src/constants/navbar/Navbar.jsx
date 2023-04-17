@@ -10,10 +10,11 @@ const Navbar = () => {
         text-white 
         font-Poppins
         font-black 
-        md:text-[20px] 
+        md:text-[18px] 
         sm:text-[10px] 
         xs:text-[5px]  
         font-Poppins
+        font-semibold
         '>
 
         <li className=''> <img src= {logo}  alt=""/></li>

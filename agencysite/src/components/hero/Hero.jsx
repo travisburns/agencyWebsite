@@ -1,37 +1,56 @@
 import React from 'react'
-import heroCover from '../../assets/herocover.png'
+import alienImage from '../../assets/alienimage.png'
 
 function Hero() {
   
   
     return (
-    <div className='h-[40rem]'>
-      <img className='w-full' src={heroCover} alt="heroImage"/> 
+    <div className='mt-20 '>
+      <img className='ml-[25rem] top-9 relative' src={alienImage} alt="heroImage"/> 
       <h1 className='font-black 
       text-white 
-      lg:text-[60px] 
+      lg:text-[70px] 
       sm:text-[60px] 
       xs:text-[50px] 
       text-[40px] 
       lg:leading-[98px] 
-      mt-2 text-white relative  
-      left-40 bottom-[35rem] 
+      mt-60 text-white relative  
+      ml-[50rem] bottom-[35rem] 
       h-17 
-      w-[30rem]
+      w-[48rem]
+      relative
       '>
-        Bridge Your Technological Gap Today!</h1>
+        Bridge Your Technological Gap Today!
+        </h1>
         <button className='
+        lg:text-[40px] 
          bg-indigo-950
+         font-Poppins
          p-5 
          rounded-2xl 
-         sm:w-[130px] 
+         sm:w-[450px] 
          text-white
          relative
-         left-40 
+         left-[30rem] 
          bottom-[35rem] 
         
         '>
           Get Started!</button>
+          <button className='
+          lg:text-[40px] 
+         bg-indigo-950
+         font-Poppins
+         p-5
+         
+         rounded-2xl 
+         sm:w-[450px] 
+         text-white
+         relative
+         left-[32rem] 
+         bottom-[35rem] 
+        
+        '>
+           Our Work</button>
      </div>
     
   )

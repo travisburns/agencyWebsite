@@ -1,6 +1,7 @@
 import {BrowserRouter } from "react-router-dom";
 import {Banner, Hero, Navbar, Services} from './components';
 import './App.css'
+import StarsCanvas from "./components/canvas/Stars";
 
 
 const App = () => {
@@ -11,9 +12,13 @@ const App = () => {
     <BrowserRouter>
   
     <div className='relative z-0 bg-black	'>
-    <Banner />
+
+
+    
     <Navbar />
     <Hero />
+    <StarsCanvas />
+    
     <Services />
     </div>
     </BrowserRouter>

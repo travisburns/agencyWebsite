@@ -3,7 +3,8 @@ import React from 'react'
 const Services = () => {
   return (
     <div className='services 
-    bg-black
+    bg-gray-920
+    rounded-2xl
     sm:px-16 
     px-6 
     sm:py-16 
@@ -35,7 +36,7 @@ const Services = () => {
         bg-indigo-950
         p-5 
         rounded-2xl 
-        sm:w-[360px] 
+        sm:w-[250px] 
         w-full"
         '>
         <img className='services_servicesList1-img'/>
@@ -52,7 +53,7 @@ const Services = () => {
         bg-indigo-950
         p-5 
         rounded-2xl 
-        sm:w-[360px] 
+        sm:w-[250px] 
         w-full"
         
         
@@ -72,7 +73,26 @@ const Services = () => {
        bg-indigo-950
        p-5 
        rounded-2xl 
-       sm:w-[360px] 
+       sm:w-[250px] 
+       w-full"
+        
+        '>
+        <img className='services_servicesList3-img'/>
+        <div className='services_servicesList3-info'>
+            <div className='services_servicesList3-title'>
+            <p className='text-white text-3xl'>Web Design</p>
+            </div>
+            <div className='services_servicesList3-desc'>
+                
+            </div>
+        </div>
+        </div>
+        
+        <div className='services_servicesList3
+       bg-indigo-950
+       p-5 
+       rounded-2xl 
+       sm:w-[250px] 
        w-full"
         
         '>
