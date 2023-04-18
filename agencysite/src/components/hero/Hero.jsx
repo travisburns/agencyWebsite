@@ -5,8 +5,8 @@ function Hero() {
   
   
     return (
-    <div className='mt-20 '>
-      <img className='ml-[25rem] top-9 relative' src={alienImage} alt="heroImage"/> 
+    <div className='h-[65rem]'>
+      <img className='ml-[25rem] relative' src={alienImage} alt="heroImage"/> 
       <h1 className='font-black 
       text-white 
       lg:text-[70px] 
