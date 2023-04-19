@@ -6,12 +6,13 @@ function Hero() {
   
     return (
     <div className='h-[65rem]'>
+      <div className='xl:left-[9rem] 2xl:left-[15.5rem] relative'>
       <img className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem]' src={alienImage} alt="heroImage"/> 
       <h1 className='font-black 
       text-white 
       mb:text-[30px]
       mb:bottom-[7rem]
-      mb:left-[3rem]
+      mb:left-[3.8rem]
       mb:w-[13rem]
       mb:max-w-full
       mb:bottom-[10rem]
@@ -20,6 +21,7 @@ function Hero() {
       sm:bottom-[12rem]
       md:left-[7rem]
       lg:text-[70px] 
+      
       lg:bottom-[39rem]
       lg:w-[32rem]
       lg:left-[29rem]
@@ -48,10 +50,11 @@ function Hero() {
          relative
          
          bottom-[8rem] 
-          
+        mb:left-[2rem]  
         sm:left-[6.5rem]
-        md:left-[5rem]
+        md:left-[10rem]
         md:bottom-[30rem] 
+        lg:left-[3.5rem]
 
         '>
           Get Started!</button>
@@ -69,12 +72,14 @@ function Hero() {
          md: left-[2rem]
          bottom-[8rem] 
         mt-1
-        
+        mb:left-[2.2rem]  
         sm:left-[6.5rem]
-        md:left-[6rem]
+        md:left-[10rem]
         md:bottom-[30rem] 
+        lg:left-[4.5rem]
         '>
            Our Work</button>
+           </div>
      </div>
     
   )
