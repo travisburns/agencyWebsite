@@ -6,18 +6,33 @@ function Hero() {
   
     return (
     <div className='h-[65rem]'>
-      <img className='ml-[25rem] relative' src={alienImage} alt="heroImage"/> 
+      <img className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem]' src={alienImage} alt="heroImage"/> 
       <h1 className='font-black 
       text-white 
+      mb:text-[30px]
+      mb:bottom-[7rem]
+      mb:left-[3rem]
+      mb:w-[13rem]
+      mb:max-w-full
+      mb:bottom-[10rem]
+      sm:w-[34rem]
+      sm:text-[42px]
+      sm:bottom-[12rem]
+      md:left-[7rem]
       lg:text-[70px] 
-      sm:text-[60px] 
+      lg:bottom-[39rem]
+      lg:w-[32rem]
+      lg:left-[29rem]
+      
       xs:text-[50px] 
       text-[40px] 
       lg:leading-[98px] 
-      mt-60 text-white relative  
-      ml-[50rem] bottom-[35rem] 
+      mt-60  text-white relative  
+       bottom-[10rem]
+       text-center
       h-17 
-      w-[48rem]
+      
+      
       relative
       '>
         Bridge Your Technological Gap Today!
@@ -31,9 +46,13 @@ function Hero() {
          sm:w-[450px] 
          text-white
          relative
-         left-[30rem] 
-         bottom-[35rem] 
-        
+         
+         bottom-[8rem] 
+          
+        sm:left-[6.5rem]
+        md:left-[5rem]
+        md:bottom-[30rem] 
+
         '>
           Get Started!</button>
           <button className='
@@ -46,9 +65,14 @@ function Hero() {
          sm:w-[450px] 
          text-white
          relative
-         left-[32rem] 
-         bottom-[35rem] 
+          
+         md: left-[2rem]
+         bottom-[8rem] 
+        mt-1
         
+        sm:left-[6.5rem]
+        md:left-[6rem]
+        md:bottom-[30rem] 
         '>
            Our Work</button>
      </div>

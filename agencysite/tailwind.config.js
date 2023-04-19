@@ -8,7 +8,12 @@ export default {
     extend: {
       fontFamily: {
         'Poppins': ['Poppins'],
-      }
+      },
+
+      screens: {
+        'mb': '320px'
+      },
+
     },
   },
   plugins: [],

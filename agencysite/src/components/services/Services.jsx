@@ -8,8 +8,8 @@ const Services = () => {
     <div className='services 
     bg-gray-920
     rounded-2xl
-    sm:px-16 
-    px-6 
+    sm:px-2 
+    px-2
     sm:py-16 
     py-10 
     max-w-7xl 
@@ -36,14 +36,14 @@ const Services = () => {
         mt-20 
         flex 
         flex-wrap 
-        gap-7
+        gap-5
         text-center
         '>
         <div className='services_servicesList1
         bg-indigo-950
         
         rounded-2xl 
-        sm:w-[250px] 
+        sm:w-[300px] 
         w-full"
         '>
         <img className='services_servicesList1-img' src={designIcon}/>
@@ -65,7 +65,7 @@ const Services = () => {
         bg-indigo-950
         
         rounded-2xl 
-        sm:w-[250px] 
+        sm:w-[300px] 
         w-full"
         
         
@@ -90,7 +90,7 @@ const Services = () => {
        bg-indigo-950
        
        rounded-2xl 
-       sm:w-[250px] 
+       sm:w-[300px] 
        w-full"
         
         '>
@@ -113,7 +113,7 @@ const Services = () => {
        bg-indigo-950
         
        rounded-2xl 
-       sm:w-[250px] 
+       sm:w-[300px] 
        w-full"
         
         '>
