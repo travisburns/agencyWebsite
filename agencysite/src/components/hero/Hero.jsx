@@ -6,7 +6,7 @@ function Hero() {
   
     return (
     <div className='h-[65rem]'>
-      <div className='xl:left-[9rem] 2xl:left-[15.5rem] relative'>
+      <div className=' relative'>
       <img className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem]' src={alienImage} alt="heroImage"/> 
       <h1 className='font-black 
       text-white 
