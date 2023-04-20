@@ -11,7 +11,8 @@ export default {
       },
 
       screens: {
-        'mb': '320px'
+        'mb': '320px',
+        'l-tablet': '900px'
       },
 
     },

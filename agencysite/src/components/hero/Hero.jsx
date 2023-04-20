@@ -48,12 +48,14 @@ function Hero() {
          sm:w-[450px] 
          text-white
          relative
-         
-         bottom-[8rem] 
+        mb:bottom-[6rem] 
+        sm:bottom-[2rem]
         mb:left-[2rem]  
         sm:left-[6.5rem]
         md:left-[10rem]
-        md:bottom-[30rem] 
+        md:bottom-[10rem] 
+        l-tablet:left-[2rem]
+        l-tablet:w-[400px]
         lg:left-[3.5rem]
 
         '>
@@ -72,10 +74,13 @@ function Hero() {
          md: left-[2rem]
          bottom-[8rem] 
         mt-1
+        mb:bottom-[6rem] 
         mb:left-[2.2rem]  
         sm:left-[6.5rem]
         md:left-[10rem]
-        md:bottom-[30rem] 
+        md:bottom-[10rem]
+        l-tablet:left-[3rem]
+        l-tablet:w-[400px]
         lg:left-[4.5rem]
         '>
            Our Work</button>
