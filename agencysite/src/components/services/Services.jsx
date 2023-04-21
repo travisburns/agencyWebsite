@@ -38,12 +38,17 @@ const Services = () => {
         flex-wrap 
         gap-5
         text-center
+        md:left-[4.2rem]
+        lg:left-[1.9rem]
+        
+        relative
         '>
         <div className='services_servicesList1
         bg-indigo-950
         
         rounded-2xl 
-        sm:w-[300px] 
+        sm:w-[200px]
+        lg:w-[18rem] 
         w-full"
         '>
         <img className='services_servicesList1-img' src={designIcon}/>
@@ -67,7 +72,7 @@ const Services = () => {
         rounded-2xl 
         sm:w-[300px] 
         w-full"
-        
+        lg:w-[18rem] 
         
         '>
         <img className='services_servicesList2-img' src={developmentIcon}/>
@@ -92,7 +97,7 @@ const Services = () => {
        rounded-2xl 
        sm:w-[300px] 
        w-full"
-        
+       lg:w-[18rem] 
         '>
         <img className='services_servicesList3-img' src={seoIcon} alt=""/>
         <div className='services_servicesList3-info'>
@@ -115,7 +120,7 @@ const Services = () => {
        rounded-2xl 
        sm:w-[300px] 
        w-full"
-        
+       lg:w-[18rem] 
         '>
         <img className='services_servicesList4-img' src={automationRobot} alt="automation icon"/>
         <div className='services_servicesList4-info'>
