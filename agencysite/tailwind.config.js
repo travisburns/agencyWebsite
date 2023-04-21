@@ -12,7 +12,8 @@ export default {
 
       screens: {
         'mb': '320px',
-        'l-tablet': '900px'
+        'l-tablet': '900px',
+        'l-desktop': '1920px'
       },
 
     },

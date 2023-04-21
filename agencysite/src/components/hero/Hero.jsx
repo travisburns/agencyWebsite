@@ -6,8 +6,8 @@ function Hero() {
   
     return (
     <div className='h-[65rem]'>
-      <div className=' relative'>
-      <img className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem]' src={alienImage} alt="heroImage"/> 
+      <div className=' relative bottom-10 2xl:right-[10rem] l-desktop:left-[1rem]'>
+      <img className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem] xl:w-[47rem] 2xl:w-[52rem] 2xl:left-[15rem]' src={alienImage} alt="heroImage"/> 
       <h1 className='font-black 
       text-white 
       mb:text-[30px]
@@ -33,7 +33,12 @@ function Hero() {
        bottom-[10rem]
        text-center
       h-17 
-      
+      xl:left-[40rem]
+      xl:text-[81px]
+      2xl:text-[81px]
+      2xl:left-[60rem]
+      2xl:bottom-[45rem]
+      xl:w-[30rem]
       
       relative
       '>
@@ -57,7 +62,11 @@ function Hero() {
         l-tablet:left-[2rem]
         l-tablet:w-[400px]
         lg:left-[3.5rem]
-
+        lg:bottom-[32rem]
+        xl:left-[8.5rem]
+        xl:w-[483px]
+        2xl:left-[25rem]
+        2xl:w-[510px]
         '>
           Get Started!</button>
           <button className='
@@ -82,6 +91,11 @@ function Hero() {
         l-tablet:left-[3rem]
         l-tablet:w-[400px]
         lg:left-[4.5rem]
+        lg:bottom-[32rem]
+        xl:left-[10.5rem]
+        xl:w-[483px]
+        2xl:left-[28rem]
+        2xl:w-[510px]
         '>
            Our Work</button>
            </div>
