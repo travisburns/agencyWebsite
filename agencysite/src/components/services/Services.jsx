@@ -47,7 +47,8 @@ const Services = () => {
         bg-indigo-950
         
         rounded-2xl 
-        sm:w-[200px]
+        sm:w-[300px]
+        w-[400px]
         lg:w-[18rem] 
         w-full"
         '>
@@ -71,7 +72,7 @@ const Services = () => {
         
         rounded-2xl 
         sm:w-[300px] 
-        w-full"
+        w-[400px]
         lg:w-[18rem] 
         
         '>
@@ -96,7 +97,7 @@ const Services = () => {
        
        rounded-2xl 
        sm:w-[300px] 
-       w-full"
+       w-[400px]
        lg:w-[18rem] 
         '>
         <img className='services_servicesList3-img' src={seoIcon} alt=""/>
@@ -118,6 +119,7 @@ const Services = () => {
        bg-indigo-950
         
        rounded-2xl 
+       w-[400px]
        sm:w-[300px] 
        w-full"
        lg:w-[18rem] 
