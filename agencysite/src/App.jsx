@@ -3,6 +3,7 @@ import {Banner, Hero, Navbar, Services} from './components';
 import './App.css'
 import StarsCanvas from "./components/canvas/Stars";
 import Work from "./components/work/Work";
+import About from "./components/about/About";
 
 
 const App = () => {
@@ -18,10 +19,12 @@ const App = () => {
     
     <Navbar />
     <Hero />
-    <StarsCanvas />
-    
     <Services />
     <Work />
+    <About />
+    <StarsCanvas />
+    
+    
     </div>
     </BrowserRouter>
  )
