@@ -4,6 +4,7 @@ import './App.css'
 import StarsCanvas from "./components/canvas/Stars";
 import Work from "./components/work/Work";
 import About from "./components/about/About";
+import Testimonials from "./components/testimonials/Testimonials";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
     <Services />
     <Work />
     <About />
+    <Testimonials />
     <StarsCanvas />
     
     
