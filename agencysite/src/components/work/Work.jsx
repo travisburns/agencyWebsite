@@ -15,7 +15,7 @@ const Work = () => {
         font-Poppins
         text-center
         '>Past Work</p>
-        <div className='mt-20 flex flex-wrap gap-7'>
+        <div className='mt-20 flex flex-wrap gap-7 relative md:left-[10rem] l-tablet:left-[2rem] lg:left-[4rem] xl:left-[0rem]'>
     
         <div className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
             <div className='relative w-full h-[230px]'>

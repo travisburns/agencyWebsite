@@ -53,7 +53,7 @@ function Hero() {
          sm:w-[450px] 
          text-white
          relative
-        mb:bottom-[11rem] 
+        mb:bottom-[7rem] 
         sm:bottom-[2rem]
         mb:left-[2rem]  
         sm:left-[6.5rem]
@@ -83,7 +83,7 @@ function Hero() {
          md: left-[2rem]
          bottom-[8rem] 
         mt-1
-        mb:bottom-[11rem] 
+        mb:bottom-[7rem] 
         mb:left-[2.2rem]  
         sm:left-[6.5rem]
         md:left-[10rem]
