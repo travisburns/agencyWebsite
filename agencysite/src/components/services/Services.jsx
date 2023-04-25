@@ -16,6 +16,8 @@ const Services = () => {
     mx-auto 
     relative 
     z-0
+    mb:py-0
+    mb:bottom-[5rem]
     '>
       <div className='services_Title text-center'>
         <div className='services_Title-Text 

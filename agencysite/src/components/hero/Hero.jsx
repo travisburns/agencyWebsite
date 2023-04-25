@@ -5,8 +5,8 @@ function Hero() {
   
   
     return (
-    <div className='h-[65rem]'>
-      <div className=' relative bottom-10 2xl:right-[10rem] l-desktop:left-[1rem]'>
+   
+      <div className=' relative bottom-10 2xl:right-[10rem] l-desktop:left-[1rem] lg:h-[55rem] xl:mb-[15rem]'>
       <img className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem] xl:w-[47rem] 2xl:w-[52rem] 2xl:left-[15rem]' src={alienImage} alt="heroImage"/> 
       <h1 className='font-black 
       text-white 
@@ -15,7 +15,7 @@ function Hero() {
       mb:left-[3.8rem]
       mb:w-[13rem]
       mb:max-w-full
-      mb:bottom-[10rem]
+      mb:bottom-[12rem]
       sm:w-[34rem]
       sm:text-[42px]
       sm:bottom-[12rem]
@@ -53,7 +53,7 @@ function Hero() {
          sm:w-[450px] 
          text-white
          relative
-        mb:bottom-[6rem] 
+        mb:bottom-[11rem] 
         sm:bottom-[2rem]
         mb:left-[2rem]  
         sm:left-[6.5rem]
@@ -61,9 +61,9 @@ function Hero() {
         md:bottom-[10rem] 
         l-tablet:left-[2rem]
         l-tablet:w-[400px]
-        lg:left-[3.5rem]
+        lg:left-[7rem]
         lg:bottom-[32rem]
-        xl:left-[8.5rem]
+        xl:left-[10.5rem]
         xl:w-[483px]
         2xl:left-[25rem]
         2xl:w-[510px]
@@ -83,23 +83,23 @@ function Hero() {
          md: left-[2rem]
          bottom-[8rem] 
         mt-1
-        mb:bottom-[6rem] 
+        mb:bottom-[11rem] 
         mb:left-[2.2rem]  
         sm:left-[6.5rem]
         md:left-[10rem]
         md:bottom-[10rem]
         l-tablet:left-[3rem]
         l-tablet:w-[400px]
-        lg:left-[4.5rem]
+        lg:left-[8.5rem]
         lg:bottom-[32rem]
-        xl:left-[10.5rem]
+        xl:left-[11rem]
         xl:w-[483px]
         2xl:left-[28rem]
         2xl:w-[510px]
         '>
            Our Work</button>
            </div>
-     </div>
+     
     
   )
 }
