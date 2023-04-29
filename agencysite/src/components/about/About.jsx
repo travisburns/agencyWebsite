@@ -4,7 +4,7 @@ const About = () => {
   
   
     return (
-    <div className='mt-12 bg-black-100 rounded-[20px] w-4/5 text-center relative 2xl:w-[65%] sm:left-[4rem] left-[2rem] md:left-[1rem] lg:left-[2rem] xl:left-[-2.4rem] 2xl:left-[5rem]'>
+    <div className='mt-12 bg-black-100 rounded-[20px] w-4/5 text-center relative 2xl:w-[65%] sm:left-[4rem] left-[2rem] md:left-[1rem] lg:left-[2rem] xl:left-[-2.4rem] 2xl:left-[5rem] 2xl:pb-[10rem]'>
     <div className='bg-slate-950 rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px] md:left-[4rem] lg:left-[5rem] xl:left-[6.5rem] 2xl:left-[7rem] l-desktop:left-[18rem] relative'>
         <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'>Our Team</h2>
     

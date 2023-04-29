@@ -4,7 +4,7 @@ import agencyBackground from '../../assets/herocover.png';
 const Work = () => {
   
     return (
-        <section className='sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0' >
+        <section className='sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0 2xl:pb-[10rem]' >
             <p className='services_Title-Text 
         text-white 
         font-black 
