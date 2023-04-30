@@ -3,6 +3,9 @@ import automationRobot from '../../assets/robotautomation.png'
 import designIcon from '../../assets/designIcon.png'
 import developmentIcon from '../../assets/developmentIcon.png'
 import seoIcon from '../../assets/seoIcon.png'
+
+
+
 const Services = () => {
   return (
     <div className='services 
@@ -54,7 +57,9 @@ const Services = () => {
         lg:w-[18rem] 
         w-full"
         '>
+          
         <img className='services_servicesList1-img' src={designIcon}/>
+        
         <div className='services_servicesList1-info'>
             <div className='services_servicesList1-title
               bg-neutral-900
