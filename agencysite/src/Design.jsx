@@ -1,12 +1,16 @@
 import React from 'react'
+import StarsCanvas from "./components/canvas/Stars";
+
 
 const Design = () => {
   
   
   
     return (
+      
     <div>
-    <p>This is an example text</p>  
+    <p>Example text again</p>  
+    <StarsCanvas />
     </div>
   )
 }
