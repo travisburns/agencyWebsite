@@ -63,7 +63,7 @@ const Services = () => {
         <div className='services_servicesList1-info'>
             <div className='services_servicesList1-title
               bg-neutral-900
-              rounded-2xl
+              border-b rounded-b-lg border-t-0 p-0
             
             
             '>
@@ -87,8 +87,7 @@ const Services = () => {
         <div className='services_servicesList2-info'>
             <div className='services_servicesList2-title
             bg-neutral-900
-            rounded-2xl
-            
+            border-b rounded-b-lg border-t-0 p-0
             
             '>
             <p className='text-white text-4xl'>Development</p>
@@ -112,7 +111,7 @@ const Services = () => {
             <div className='services_servicesList3-title
                 
                 bg-neutral-900
-              rounded-2xl
+                border-b rounded-b-lg border-t-0 p-0
             '>
             <p className='text-white text-4xl'>SEO</p>
             </div>
@@ -135,7 +134,7 @@ const Services = () => {
         <div className='services_servicesList4-info'>
             <div className='services_servicesList4-title
               bg-neutral-900
-              rounded-2xl
+              border-b rounded-b-lg border-t-0 p-0
               
             
             '>
