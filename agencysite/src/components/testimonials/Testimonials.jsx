@@ -9,7 +9,7 @@ const Testimonials = () => {
     return (
     <div>
         <div className='testimonials text-center font-Poppins text-white 2xl:pb-[10rem]'>
-            <h4 className='testimonials_title  text-white text-[30px] font-black mb-10'>Testimonials</h4>
+            <h4 className='testimonials_title  text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'>Testimonials</h4>
             <p className='testimonials_grabber font-black mb-10'>Dont't take our word for it. Over 100+ people trust us.</p>
             <div classname='testimonials_scroller flex flex-wrap relative mb:left-[0rem] md:left-[2rem] '>
             <div className='testimonials_scroller-item rounded-lg bg-slate-950  relative w-3/5 mb-5 left-[4rem] sm:left-[8rem] lg:left-[13rem] 2xl:w-[70.2rem] l-desktop:left-[26rem]'>

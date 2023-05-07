@@ -5,7 +5,7 @@ const Contact = () => {
   return (
       <div className=' relative w-[80%] left-[2rem] sm:left-[4rem] md:left-[5rem] lg:left-[9rem]  xl:mt-12   gap-10 overflow-hidden l-desktop:left-[15rem] 2xl:pb-[10rem]'>
         <p className='text-white font-Poppins text-[1.8rem] relative bottom-[600rem]' >Get in touch</p>
-        <h3 className='text-white font-Poppins text-[2rem] font-bold text-center'>Contact.</h3>
+        <h3 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center'>Contact.</h3>
         <form 
           
     
