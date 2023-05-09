@@ -3,7 +3,7 @@ import automationRobot from '../../assets/robotautomation.png'
 import designIcon from '../../assets/designIcon.png'
 import developmentIcon from '../../assets/developmentIcon.png'
 import seoIcon from '../../assets/seoIcon.png'
-
+import { motion, useScroll } from "framer-motion"
 
 
 const Services = () => {
@@ -48,7 +48,13 @@ const Services = () => {
         
         relative
         '>
-        <div className='services_servicesList1
+        <motion.div 
+        style={{position: "relative"}}
+        initial={{ right: "200px" }}
+        whileInView={{ left: "0px"}}
+        viewport={{ once: false}}
+        transition={{ duration: 1, delay: 0.5 }}
+        className='services_servicesList1
         bg-indigo-950
         
         rounded-2xl 
@@ -56,7 +62,8 @@ const Services = () => {
         w-[400px]
         lg:w-[18rem] 
         w-full"
-        '>
+        '
+        >
           
         <img className='services_servicesList1-img' src={designIcon}/>
         
@@ -73,16 +80,24 @@ const Services = () => {
 
             </div>
         </div>
-        </div>
-        <div className='services_servicesList2
-        bg-indigo-950
         
+        </motion.div>
+        
+        <motion.div 
+        style={{position: "relative"}}
+        initial={{ right: "500px" }}
+        whileInView={{ left: "0px"}}
+        viewport={{ once: false}}
+        transition={{ duration: 1, delay: 0.5 }}
+        className='services_servicesList2
+        bg-indigo-950
         rounded-2xl 
         sm:w-[300px] 
         w-[400px]
         lg:w-[18rem] 
-        
+        relative
         '>
+          
         <img className='services_servicesList2-img' src={developmentIcon}/>
         <div className='services_servicesList2-info'>
             <div className='services_servicesList2-title
@@ -96,9 +111,15 @@ const Services = () => {
                 
             </div>
         </div>
-        </div>
+        </motion.div>
 
-        <div className='services_servicesList3
+        <motion.div 
+        style={{position: "relative"}}
+        initial={{ right: "800px" }}
+        whileInView={{ left: "0px"}}
+        viewport={{ once: false}}
+        transition={{ duration: 1, delay: 0.5 }}
+        className='services_servicesList3
        bg-indigo-950
        
        rounded-2xl 
@@ -119,9 +140,15 @@ const Services = () => {
                 
             </div>
         </div>
-        </div>
+        </motion.div>
         
-        <div className='services_servicesList4
+        <motion.div 
+         style={{position: "relative"}}
+         initial={{ right: "1100px" }}
+         whileInView={{ left: "0px"}}
+         viewport={{ once: false}}
+         transition={{ duration: 1, delay: 0.5 }}
+        className='services_servicesList4
        bg-indigo-950
         
        rounded-2xl 
@@ -144,7 +171,7 @@ const Services = () => {
                 
             </div>
         </div>
-        </div>
+        </motion.div>
         
 
       </div>
