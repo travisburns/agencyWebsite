@@ -5,6 +5,7 @@ import { motion, useScroll } from "framer-motion"
 
 const Work = () => {
   
+
     return (
         <section className='sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0 2xl:pb-[10rem]' >
             <p className='services_Title-Text 
@@ -21,14 +22,23 @@ const Work = () => {
     
         <motion.div 
          style={{position: "relative"}}
-         initial={{ bottom: "80px", opacity: "0" }}
+         initial={{ bottom: "80px", opacity: 0 }}
          
          whileInView={{ bottom: "0px", opacity: 1 }}
          viewport={{ once: false}}
-         transition={{ duration: 1, delay: 0.5 }}
+         transition={{ duration: 1, delay: 0.5, staggerChildren: 0.2, delayChildren: 0.5 }
+        }
          className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
             <div className='relative w-full h-[230px]'>
-            <img src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
+            <motion.img 
+            style={{position: 'relative'}}
+             initial={{ left: "80px", opacity: 0 }}
+             whileInView={{ left: "0px", opacity: 1 }}
+             viewport={{ once: false}}
+             transition={{ duration: 1, delay: 1.3}}
+            src={agencyBackground} className='w-full h-full object-cover rounded-2xl'
+            
+            />
             </div>
             <div className='mt-5'>
                 <h3 className='text-white font-bold text-[24px]'>Title</h3>
@@ -48,10 +58,17 @@ const Work = () => {
          
          whileInView={{ bottom: "0px", opacity: 1 }}
          viewport={{ once: false}}
-         transition={{ duration: 1, delay: 1 }}
+         transition={{ duration: 1, delay: 1, staggerChildren: 0.5 }}
+         
         className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
             <div className='relative w-full h-[230px]'>
-            <img src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
+            <motion.img 
+            style={{position: 'relative'}}
+             initial={{ left: "80px", opacity: 0 }}
+             whileInView={{ left: "0px", opacity: 1 }}
+             viewport={{ once: false}}
+             transition={{ duration: 1, delay: 1.3}}
+            src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
             </div>
             <div className='mt-5'>
                 <h3 className='text-white font-bold text-[24px]'>Title</h3>
@@ -75,7 +92,13 @@ const Work = () => {
         
         className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
             <div className='relative w-full h-[230px]'>
-            <img src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
+            <motion.img 
+            style={{position: 'relative'}}
+            initial={{ left: "80px", opacity: 0 }}
+            whileInView={{ left: "0px", opacity: 1 }}
+            viewport={{ once: false}}
+            transition={{ duration: 1, delay: 1.3}}
+            src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
             </div>
             <div className='mt-5'>
                 <h3 className='text-white font-bold text-[24px]'>Title</h3>
