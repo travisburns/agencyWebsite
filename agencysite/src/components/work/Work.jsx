@@ -1,5 +1,7 @@
 import React from 'react'
 import agencyBackground from '../../assets/herocover.png';
+import { motion, useScroll } from "framer-motion"
+
 
 const Work = () => {
   
@@ -17,7 +19,14 @@ const Work = () => {
         '>Past Work</p>
         <div className='mt-20 flex flex-wrap gap-7 relative md:left-[10rem] l-tablet:left-[2rem] lg:left-[4rem] xl:left-[0rem]'>
     
-        <div className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
+        <motion.div 
+         style={{position: "relative"}}
+         initial={{ bottom: "80px", opacity: "0" }}
+         
+         whileInView={{ bottom: "0px", opacity: 1 }}
+         viewport={{ once: false}}
+         transition={{ duration: 1, delay: 0.5 }}
+         className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
             <div className='relative w-full h-[230px]'>
             <img src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
             </div>
@@ -31,9 +40,16 @@ const Work = () => {
                 <p className='text-[14px] text-green-500'>MongoDb</p>
                 <p className='text-[14px] text-pink-500'>Tailwind</p>
             </div>
-        </div>
+        </motion.div>
 
-        <div className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
+        <motion.div 
+         style={{position: "relative"}}
+         initial={{ bottom: "80px", opacity: "0" }}
+         
+         whileInView={{ bottom: "0px", opacity: 1 }}
+         viewport={{ once: false}}
+         transition={{ duration: 1, delay: 1 }}
+        className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
             <div className='relative w-full h-[230px]'>
             <img src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
             </div>
@@ -47,9 +63,17 @@ const Work = () => {
                 <p className='text-[14px] text-green-500'>MongoDb</p>
                 <p className='text-[14px] text-pink-500'>Tailwind</p>
             </div>
-        </div>
+        </motion.div>
 
-        <div className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
+        <motion.div
+        style={{position: "relative"}}
+        initial={{ bottom: "80px", opacity: "0" }}
+        
+        whileInView={{ bottom: "0px", opacity: 1 }}
+        viewport={{ once: false}}
+        transition={{ duration: 1, delay: 1.5 }}
+        
+        className='bg-slate-950 p-5 rounded-2xl sm:w-[360px] w-full mb-5'>
             <div className='relative w-full h-[230px]'>
             <img src={agencyBackground} className='w-full h-full object-cover rounded-2xl'/>
             </div>
@@ -63,7 +87,7 @@ const Work = () => {
                 <p className='text-[14px] text-green-500'>MongoDb</p>
                 <p className='text-[14px] text-pink-500'>Tailwind</p>
             </div>
-        </div>
+        </motion.div>
         </div>
         </section>
   )
