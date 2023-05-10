@@ -1,5 +1,9 @@
 import React from 'react'
 import marketingTeam from '../../assets/marketingTeam.png'
+import { motion, useScroll } from "framer-motion"
+
+
+
 const About = () => {
   
   
@@ -9,7 +13,16 @@ const About = () => {
         <h2 className='text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'>Our Team</h2>
     
     <div className='mt-20 pb-14 sm:px-16 px-6  gap-7 lg:flex'> 
-    <div className='bg-slate-900  rounded-3xl xs:w-[320px] w-full mt-[40px] lg:p-[5] '>
+    <motion.div 
+    style={{position: "relative"}}
+    initial={{ bottom: "80px", opacity: 0 }}
+    
+    whileInView={{ bottom: "0px", opacity: 1 }}
+    viewport={{ once: false}}
+    transition={{ duration: 1, delay: 0.5, staggerChildren: 0.2, delayChildren: 0.5 }
+   }
+    
+    className='bg-slate-900  rounded-3xl xs:w-[320px] w-full mt-[40px] lg:p-[5] '>
         <div className='mt-1'>
             <img src={marketingTeam} className='rounded-3xl' />
             <p className='text-white tracking-wider text-[18px] font-Poppins'>
@@ -19,25 +32,41 @@ const About = () => {
                 Obtaining a bachelors of Science and Marketing and over four years of experience, Daniel has been a valueble asset.
             </p>
         </div>
-    </div>
+    </motion.div>
 
-    <div className='bg-slate-900  rounded-3xl xs:w-[320px] w-full mt-[40px]'>
+    <motion.div 
+    style={{position: "relative"}}
+    initial={{ top: "80px", opacity: 0 }}
+    
+    whileInView={{ top: "0px", opacity: 1 }}
+    viewport={{ once: false}}
+    transition={{ duration: 1, delay: 0.5, staggerChildren: 0.2, delayChildren: 0.5 }
+   }
+    className='bg-slate-900  rounded-3xl xs:w-[320px] w-full mt-[40px]'>
         <div className='mt-1'>
             <img src={marketingTeam} className='rounded-3xl'/>
             <p className='text-white tracking-wider text-[18px]'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam necessitatibus iusto voluptas?
             </p>
         </div>
-    </div>
+    </motion.div>
 
-    <div className='bg-slate-900  rounded-3xl xs:w-[320px] w-full mt-[40px]'>
+    <motion.div 
+    style={{position: "relative"}}
+    initial={{ bottom: "80px", opacity: 0 }}
+    
+    whileInView={{ bottom: "0px", opacity: 1 }}
+    viewport={{ once: false}}
+    transition={{ duration: 1, delay: 0.5, staggerChildren: 0.2, delayChildren: 0.5 }
+   }
+    className='bg-slate-900  rounded-3xl xs:w-[320px] w-full mt-[40px]'>
         <div className='mt-1'>
             <img src={marketingTeam} className='rounded-3xl' />
             <p className='text-white tracking-wider text-[18px]'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam necessitatibus iusto voluptas?
             </p>
         </div>
-    </div>
+    </motion.div>
     </div>
     </div>
     </div>
