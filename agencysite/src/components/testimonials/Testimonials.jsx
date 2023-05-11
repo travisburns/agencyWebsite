@@ -1,6 +1,6 @@
 import React from 'react'
 import testimonialImg from '../../assets/testimonialimg.png'
-
+import { motion, useScroll } from "framer-motion";
 
 const Testimonials = () => {
   
@@ -12,7 +12,14 @@ const Testimonials = () => {
             <h4 className='testimonials_title  text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'>Testimonials</h4>
             <p className='testimonials_grabber font-black mb-10'>Dont't take our word for it. Over 100+ people trust us.</p>
             <div classname='testimonials_scroller flex flex-wrap relative mb:left-[0rem] md:left-[2rem] '>
-            <div className='testimonials_scroller-item rounded-lg bg-slate-950  relative w-3/5 mb-5 left-[4rem] sm:left-[8rem] lg:left-[13rem] 2xl:w-[70.2rem] l-desktop:left-[26rem]'>
+            <motion.div 
+                style={{position: "relative"}}
+                initial={{ left: "-3px" }}
+                whileInView={{ left: "415px" }}
+                viewport={{ once: false}}
+                transition={{ duration: 1, delay: 0.5 }}
+               
+            className='testimonials_scroller-item rounded-lg bg-slate-950  relative w-3/5 mb-5 left-[4rem] sm:left-[8rem] lg:left-[13rem] 2xl:w-[70.2rem] l-desktop:left-[26rem]'>
                     <p className='testimonials_scroller-item_title  mb-10 pt-5'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Doloremque eaque voluptates mollitia ut accusantium exercitationem.
@@ -29,10 +36,16 @@ const Testimonials = () => {
                     </div>
                     </div>
                     </div>
-                </div>
+                </motion.div>
 
 
-                <div className='testimonials_scroller-item rounded-lg bg-slate-950  relative w-3/5 mb-5 left-[4rem] sm:left-[8rem] lg:left-[13rem] 2xl:w-[70.2rem] l-desktop:left-[26rem] '>
+                <motion.div 
+                style={{position: "relative"}}
+                initial={{ left: "1200px" }}
+                whileInView={{ left: "416px" }}
+                viewport={{ once: false}}
+                transition={{ duration: 1, delay: 0.5 }}
+                className='testimonials_scroller-item rounded-lg bg-slate-950  relative w-3/5 mb-5 left-[4rem] sm:left-[8rem] lg:left-[13rem] 2xl:w-[70.2rem] l-desktop:left-[26rem] '>
                     <p className='testimonials_scroller-item_title  mb-10 pt-5'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Doloremque eaque voluptates mollitia ut accusantium exercitationem.
@@ -49,11 +62,17 @@ const Testimonials = () => {
                     </div>
                     </div>
                     </div>
-                </div>
+                </motion.div>
 
 
 
-                <div className='testimonials_scroller-item rounded-lg bg-slate-950  relative w-3/5 mb-5 left-[4rem] sm:left-[8rem] lg:left-[13rem]  2xl:w-[70.2rem] l-desktop:left-[26rem]'>
+                <motion.div 
+               style={{position: "relative"}}
+               initial={{ left: "-3px" }}
+               whileInView={{ left: "415px" }}
+               viewport={{ once: false}}
+               transition={{ duration: 1, delay: 0.5 }}
+                className='testimonials_scroller-item rounded-lg bg-slate-950  relative w-3/5 mb-5 left-[4rem] sm:left-[8rem] lg:left-[13rem]  2xl:w-[70.2rem] l-desktop:left-[26rem]'>
                     <p className='testimonials_scroller-item_title  mb-10 pt-5'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Doloremque eaque voluptates mollitia ut accusantium exercitationem.
@@ -70,7 +89,7 @@ const Testimonials = () => {
                     </div>
                     </div>
                     </div>
-                </div>
+                </motion.div>
 
             </div>
 
