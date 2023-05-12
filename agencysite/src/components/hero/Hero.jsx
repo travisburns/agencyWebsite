@@ -1,14 +1,34 @@
 import React from 'react'
 import alienImage from '../../assets/alienimage.png'
+import { motion, useScroll } from "framer-motion";
 
 function Hero() {
   
   
     return (
    
-      <div className=' relative bottom-10 2xl:right-[10rem] l-desktop:left-[1rem] lg:h-[55rem] xl:mb-[15rem]'>
-      <img className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem] xl:w-[47rem] 2xl:w-[52rem] 2xl:left-[15rem]' src={alienImage} alt="heroImage"/> 
-      <h1 className='font-black 
+      <motion.div 
+      
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: false}}
+      transition={{ duration: 1, delay: 0.5 }}
+      className=' relative bottom-10 2xl:right-[10rem] l-desktop:left-[1rem] lg:h-[55rem] xl:mb-[15rem]'>
+      <motion.img 
+       style={{position: "relative"}}
+       initial={{ left: "-3px" }}
+       whileInView={{ left: "350px" }}
+       viewport={{ once: false}}
+       transition={{ duration: 1, delay: 0.5 }}
+      className='relative mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem] xl:w-[47rem] 2xl:w-[52rem] 2xl:left-[15rem]' src={alienImage} alt="heroImage"
+      /> 
+      <motion.h1 
+      style={{position: "relative"}}
+      initial={{ left: "1500px" }}
+      whileInView={{ left: "950px" }}
+      viewport={{ once: false}}
+      transition={{ duration: 1, delay: 0.5 }}
+      className='font-black 
       text-white 
       mb:text-[30px]
       mb:bottom-[7rem]
@@ -43,8 +63,14 @@ function Hero() {
       relative
       '>
         Bridge Your Technological Gap Today!
-        </h1>
-        <button className='
+        </motion.h1>
+        <motion.button 
+        style={{position: "relative"}}
+        initial={{ bottom: "460px" }}
+        whileInView={{ bottom: "513px" }}
+        viewport={{ once: false}}
+        transition={{ duration: 1, delay: 0.5 }}
+        className='
         lg:text-[40px] 
          bg-indigo-950
          font-Poppins
@@ -68,8 +94,14 @@ function Hero() {
         2xl:left-[25rem]
         2xl:w-[510px]
         '>
-          Get Started!</button>
-          <button className='
+          Get Started!</motion.button>
+          <motion.button 
+          style={{position: "relative"}}
+          initial={{ bottom: "460px" }}
+          whileInView={{ bottom: "513px" }}
+          viewport={{ once: false}}
+          transition={{ duration: 1, delay: 0.5 }}
+          className='
           lg:text-[40px] 
          bg-indigo-950
          font-Poppins
@@ -97,8 +129,8 @@ function Hero() {
         2xl:left-[28rem]
         2xl:w-[510px]
         '>
-           Our Work</button>
-           </div>
+           Our Work</motion.button>
+           </motion.div>
      
     
   )
