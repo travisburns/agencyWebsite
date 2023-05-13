@@ -10,16 +10,27 @@ const Work = () => {
         show: {
           opacity: 1,
           transition: {
-            delayChildren: 0.5
+            delay: 0.5,
+            when: "beforeChildren",
+           staggerChildren: 0.5
           }
         }
       }
 
       const item = {
-        hidden: { opacity: 0 },
-        show: { opacity: 1 }
+        hidden: {
+            x: -10,
+            opacity: 0
+        },
+
+        visible: {
+            x: 0,
+            opacity: 1,
+        }
       }
       
+      
+   
 
     return (
         <section className='sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0 2xl:pb-[10rem]' >
@@ -33,7 +44,9 @@ const Work = () => {
         font-Poppins
         text-center
         '>Past Work</p>
-        <div className='mt-20 flex flex-wrap gap-7 relative md:left-[10rem] l-tablet:left-[2rem] lg:left-[4rem] xl:left-[0rem]'>
+        <div 
+        
+        className='mt-20 flex flex-wrap gap-7 relative md:left-[10rem] l-tablet:left-[2rem] lg:left-[4rem] xl:left-[0rem]'>
     
         <motion.div 
          style={{position: "relative"}}
